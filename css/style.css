@@ -1,0 +1,36 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.container .section{
+    z-index: 3;
+}
+
+#particle-js{
+    height: 100% !important;
+    width: 100% !important;
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px !important;
+    z-index: 1 !important;
+}
+
+#index-banner{
+    z-index: 2 !important;
+}
+
+.spacer{
+    height: 300px;
+    z-index: 3;
+}
