@@ -34,3 +34,7 @@
     height: 300px;
     z-index: 3;
 }
+
+.slider .indicators .indicator-item.active {
+        background-color: #b71c1c; 
+}
