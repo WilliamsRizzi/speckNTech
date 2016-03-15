@@ -38,3 +38,14 @@
 .slider .indicators .indicator-item.active {
         background-color: #b71c1c; 
 }
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+    padding-top: 180px;
+	padding-bottom: 180px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -180px; /* negative value of footer height */
+	height: 180px;
+	clear:both;} 
