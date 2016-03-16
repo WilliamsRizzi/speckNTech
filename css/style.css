@@ -42,7 +42,6 @@
 #wrap {min-height: 100%;}
 
 #main {overflow:auto;
-    padding-top: 180px;
 	padding-bottom: 180px;}  /* must be same height as the footer */
 
 #footer {position: relative;
